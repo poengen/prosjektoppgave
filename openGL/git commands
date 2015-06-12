@@ -1,0 +1,16 @@
+git:
+
+$ git status			%sjekker status for ditt repository
+$ git clone <url> 		%cloning repository
+$ git add <filename>		%legger til fil
+$ git add *			%legger til alle filene i repository
+$ git commit -m "message"	%commiter filer med en beskjed
+$ git push			%synkroniserer opp
+$ git pull			%synkroniserer ned
+
+
+$ git log			%log
+$ git reset --hard HEAD		%reset last github (if deleted locally)
+
+$ git checkout <adress from git log>	%restore from a previous session
+$ git checkout master			%update newest commitment to github
